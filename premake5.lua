@@ -1,10 +1,10 @@
--- __Workspace_Name__ (workspace)
+-- bga_regex (workspace)
 
 require "premake/workspace-files"
 
-workspace "__Workspace_Name__"
+workspace "bga_regex"
   architecture("x86_64")
-  startproject("__Project_Name__")
+  startproject("bga_regex")
 
   configurations {
     "Release",
@@ -50,4 +50,4 @@ group "Dependencies"
   -- include("libs/dependency_source_code")
 
 group ""
-  include("__Project_Name__")
+  include("bga_regex")
